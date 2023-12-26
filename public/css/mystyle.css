@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('/public/myfont/Vazir.woff') format('woff');
+  font-weight: bold;
+}
+@font-face {
+    font-family: 'Parsa';
+    src: url('/public/myfont/IRANYekan.woff') format('woff');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Samin';
+    src: url('/public/myfont/fonts/samim-font-v2.0.1/Samim-Bold.woff') format('woff');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Shabnam';
+    src: url('/public/myfont/fonts/shabnam-font-v2.4.0/Shabnam-Bold.woff') format('woff');
+    font-weight: bold;
+  }
+
+
+p {
+    text-align: right;
+    font-size: 20px;
+    direction:rtl;
+    margin: auto;
+    size: 500px;
+    border-radius: 20%;
+    color:chocolate;
+    font-family: parsa;
+    
+    font-style: normal;
+}
+#title{
+    text-align: right;
+    font-size: 25px;
+    direction:rtl;
+    margin: auto;
+    size: 500px;
+    border-radius: 20%;
+    color:rgb(8, 8, 8);
+    font-family: Shabnam;
+    float: right;
+    }
+    #inf{
+        text-align: right;
+        font-size: 20px;
+        direction:rtl;
+        margin: auto;
+        size: 500px;
+        border-radius: 20%;
+        color:rgb(180, 9, 195);
+        font-family: parsa;
+        float: right;
+        margin-right: 10px;
+        }
+    #titleOL{
+        text-align: right;
+        font-size: 12px;
+        direction:rtl;
+        color: black;
+        font-family: Shabnam;
+        float: right;
+        }
+
+    #infOL{
+            text-align: right;
+            font-size: 10px;
+            direction:rtl;
+            color:rgb(180, 9, 195);
+            font-family: parsa;
+            float: right;
+            margin-right: 5px;
+            }
+   ol li {
+    direction: rtl;
+   }
+ul {
+    text-align: right;
+    font-size: 20px;
+    direction:rtl;
+    color:rgb(12, 6, 1);
+    font-family: parsa;
+}
+#p3 {
+    text-align: right;
+    font-size: 12px;
+    direction:rtl;
+    margin: auto;
+    size: 500px;
+    color:blue;
+    font-family: vazir;
+}
+.p1 {
+    font-family: vazir;
+    color:blue;
+    font-size: 12px;
+
+
+}
+
+img {
+    width:50%;
+    height: 50%;
+    border-color: black;
+    border-style: dashed;
+    border:10px  solid #555;
+    border-radius: 50%;
+  
+}
+#bannerImage {
+    width:80%;
+    height: 150px;
+    border-radius: 0;
+    margin-left: 10%;
+    border-color: aliceblue;
+    border:1px  solid #555;
+}
+#mainDiv {
+    width: 100%; 
+    height: 100%;
+}
+#div1 {
+    padding-left: 80px;
+    padding-top: 20px;
+    width: 70%; 
+    height: 100%;
+     float: left;
+}
+#div1-1 {
+    width: 20%;
+    height: 100%; 
+    float: left;
+    padding-left: 10px;
+}
+
+#div1-2 {
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-left: 200px;
+}
+
+#div2 {
+    width: 15%; 
+    height: 100%;
+    float: right; 
+    padding-right: 80px;
+    padding-top: 20px;
+}
+#headerDiv {
+    padding-top: 10px;
+    width: 100%;
+    height: 20%;
+    color: blueviolet;
+}
+
+#img1-2 {
+    align-items: centerp;
+}
